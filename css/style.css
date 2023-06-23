@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	box-shadow: 0px 0px 1px 1px gainsboro;
+	margin: 40px;
+	padding:1px;
+}
+.prof{
+	background-color:rgba(12,141,245,1);
+	width:70px;
+	padding:4px 14px 4px 14px;
+	margin:20px;
+	border-radius:5px;
+	position:relative;
+	border:none;
+	color:white;
+}
+.prof::after{
+	content: "99+";
+    height: 14px;
+    width: 26px;
+    border-radius: 20px;
+    background-color: red;
+    position: absolute;
+    top: -7px;
+    left: 56px;
+    box-shadow: 0px 0px 0px 0.8px white;
+    text-align: center;
+    font-size: 12px;
+}
+}
